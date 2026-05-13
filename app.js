@@ -357,6 +357,11 @@ function makeCardElement(card) {
         <span class="card-back-logo">LFO</span>
       </div>
       <div class="card-face">
+        <div class="card-photo">${
+        card.faceUrl
+          ? `<img class="portrait-img" src="${card.faceUrl}" alt="${escapeHTML(card.name)}" loading="lazy" referrerpolicy="no-referrer">`
+          : `<svg class="silhouette-svg" viewBox="0 0 100 120" preserveAspectRatio="xMidYMid meet"><use href="#silhouette"/></svg>`
+        }</div>
         ${EMBLEM_SVG}
         <div class="card-rating-block">
           <span class="card-rating">${card.rating}</span>
@@ -366,23 +371,20 @@ function makeCardElement(card) {
             <span class="skill-stars">${stars}★</span>
           </div>
         </div>
-        <div class="card-portrait">${
-        card.faceUrl
-          ? `<img class="portrait-img" src="${card.faceUrl}" alt="${escapeHTML(card.name)}" loading="lazy" referrerpolicy="no-referrer">`
-          : `<svg viewBox="0 0 100 120" preserveAspectRatio="xMidYMax meet"><use href="#silhouette"/></svg>`
-        }</div>
-        <div class="card-name">${escapeHTML(card.name)}</div>
-        <div class="card-stats">
-          <div class="card-stat"><span>PAC</span><b>${card.stats.PAC}</b></div>
-          <div class="card-stat"><span>SHO</span><b>${card.stats.SHO}</b></div>
-          <div class="card-stat"><span>PAS</span><b>${card.stats.PAS}</b></div>
-          <div class="card-stat"><span>DRI</span><b>${card.stats.DRI}</b></div>
-          <div class="card-stat"><span>DEF</span><b>${card.stats.DEF}</b></div>
-          <div class="card-stat"><span>PHY</span><b>${card.stats.PHY}</b></div>
-        </div>
-        <div class="card-meta">
-          ${flagImg}
-          <span class="meta-crest" aria-hidden="true"></span>
+        <div class="card-bottom">
+          <div class="card-name">${escapeHTML(card.name)}</div>
+          <div class="card-stats">
+            <div class="card-stat"><span>PAC</span><b>${card.stats.PAC}</b></div>
+            <div class="card-stat"><span>SHO</span><b>${card.stats.SHO}</b></div>
+            <div class="card-stat"><span>PAS</span><b>${card.stats.PAS}</b></div>
+            <div class="card-stat"><span>DRI</span><b>${card.stats.DRI}</b></div>
+            <div class="card-stat"><span>DEF</span><b>${card.stats.DEF}</b></div>
+            <div class="card-stat"><span>PHY</span><b>${card.stats.PHY}</b></div>
+          </div>
+          <div class="card-meta">
+            ${flagImg}
+            <span class="meta-crest" aria-hidden="true"></span>
+          </div>
         </div>
       </div>
     </div>

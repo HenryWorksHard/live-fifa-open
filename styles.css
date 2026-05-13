@@ -636,50 +636,52 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; col
   z-index: 1;
 }
 
-/* top center emblem (LFO trophy badge) */
+/* Top-right emblem badge */
 .face-emblem {
   position: absolute;
   top: 5%;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 22px;
-  height: 22px;
-  fill: currentColor;
-  opacity: 0.9;
-  filter: drop-shadow(0 1px 2px rgba(0,0,0,0.3));
-  z-index: 2;
+  right: 6%;
+  left: auto;
+  transform: none;
+  width: 18px;
+  height: 18px;
+  fill: #fff;
+  opacity: 0.95;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.55));
+  z-index: 4;
 }
 
-/* face inner layout */
+/* Rating block overlaid on photo top-left */
 .card-rating-block {
   position: absolute;
-  top: 11%;
-  left: 9%;
+  top: 5%;
+  left: 6%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   line-height: 1;
-  z-index: 2;
-  width: 22%;
+  z-index: 4;
+  width: auto;
+  color: #fff;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.75);
 }
 .card-rating {
   font-family: 'Anton', sans-serif;
-  font-size: 36px;
-  letter-spacing: 1px;
-  text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  font-size: 38px;
+  letter-spacing: 0.5px;
 }
 .card-position {
   font-family: 'Anton', sans-serif;
   font-size: 13px;
   letter-spacing: 2px;
-  margin-top: 2px;
-  opacity: 0.85;
+  margin-top: 1px;
+  opacity: 0.95;
 }
 .card-skills {
   margin-top: 6px;
-  padding-top: 5px;
-  border-top: 1px solid rgba(0,0,0,0.28);
-  width: 100%;
+  padding-top: 4px;
+  border-top: 1px solid rgba(255,255,255,0.42);
+  width: 32px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -694,68 +696,86 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; col
 .skill-stars {
   font-size: 9px;
   letter-spacing: 0.5px;
-  opacity: 0.8;
+  opacity: 0.85;
 }
 
-.card-portrait {
+/* Full-bleed photo behind everything */
+.card-photo {
   position: absolute;
-  right: 4%;
-  top: 7%;
-  width: 56%;
-  height: 42%;
+  inset: 0;
+  z-index: 0;
   overflow: hidden;
-  border-radius: 6px;
-  color: rgba(0,0,0,0.32);
-  z-index: 1;
+  border-radius: 14px;
 }
-.card-portrait svg,
-.card-portrait .portrait-img {
+.card-photo .portrait-img {
   position: absolute;
   inset: 0;
   width: 100%;
   height: 100%;
-}
-.card-portrait svg {
-  filter: drop-shadow(0 4px 8px rgba(0,0,0,0.22));
-}
-.card-portrait .portrait-img {
   object-fit: cover;
-  object-position: center 22%;
-  filter: contrast(1.1) saturate(0.85) brightness(0.98);
-  background: rgba(0,0,0,0.08);
-  /* fade the photo edges into the card background so messy press-photo
-     backdrops dissolve and the face becomes the focal point */
-  -webkit-mask-image: radial-gradient(ellipse 75% 65% at 50% 38%, #000 55%, transparent 92%);
-          mask-image: radial-gradient(ellipse 75% 65% at 50% 38%, #000 55%, transparent 92%);
+  object-position: center 18%;
+  filter: contrast(1.1) saturate(1.05);
+}
+.card-photo .silhouette-svg {
+  position: absolute;
+  left: 12%;
+  top: 14%;
+  width: 76%;
+  height: 60%;
+  color: rgba(0,0,0,0.42);
+  filter: drop-shadow(0 4px 10px rgba(0,0,0,0.25));
 }
 
-.card-name {
+/* Dark stats panel hugging the bottom */
+.card-bottom {
   position: absolute;
-  left: 8%;
-  right: 8%;
-  top: 53%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 44%;
+  z-index: 3;
+  padding: 6% 7% 5%;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  background:
+    repeating-linear-gradient(135deg,
+      rgba(255,255,255,0.04) 0 4px,
+      rgba(0,0,0,0.0) 4px 9px),
+    linear-gradient(180deg,
+      transparent 0%,
+      rgba(0,0,0,0.55) 18%,
+      rgba(0,0,0,0.86) 55%,
+      rgba(0,0,0,0.94) 100%);
+  border-radius: 0 0 14px 14px;
+}
+
+/* Player name inside bottom panel */
+.card-name {
+  position: static;
   text-align: center;
   font-family: 'Anton', sans-serif;
   font-size: 19px;
-  letter-spacing: 1.5px;
+  letter-spacing: 1.2px;
   line-height: 1;
-  padding-bottom: 7px;
-  border-bottom: 1px solid rgba(0,0,0,0.32);
-  z-index: 2;
+  padding: 0 4px 5px;
+  border: 0;
+  color: #fff;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
-/* 3 cols × 2 rows, label above value (FUT layout) */
+/* Stats grid inside bottom panel */
 .card-stats {
-  position: absolute;
-  left: 7%;
-  right: 7%;
-  top: 64%;
-  bottom: 14%;
+  position: static;
+  inset: auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr 1fr;
-  gap: 3px 6px;
-  z-index: 2;
+  gap: 3px 4px;
+  margin: 4px 0 0;
 }
 .card-stat {
   display: flex;
@@ -764,46 +784,48 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; col
   justify-content: center;
   text-align: center;
   line-height: 1;
-  gap: 2px;
+  gap: 1px;
 }
 .card-stat span {
   font-size: 9px;
   letter-spacing: 1.4px;
-  opacity: 0.78;
+  opacity: 0.65;
   font-weight: 700;
+  color: #fff;
 }
 .card-stat b {
   font-family: 'Anton', sans-serif;
-  font-size: 17px;
+  font-size: 16px;
   letter-spacing: 0.5px;
+  color: #fff;
 }
 
-/* bottom row: flag image + crest slot */
+/* Flag + crest meta row at bottom of panel */
 .card-meta {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 5%;
+  position: static;
+  inset: auto;
+  margin-top: auto;
+  padding-top: 6px;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 8px;
-  z-index: 2;
 }
 .meta-flag {
   width: 22px;
   height: 14px;
   border-radius: 2px;
   object-fit: cover;
-  box-shadow: 0 0 0 1px rgba(0,0,0,0.18);
-  background: rgba(0,0,0,0.1);
+  box-shadow: 0 0 0 1px rgba(255,255,255,0.18);
+  background: rgba(255,255,255,0.05);
+  color: #fff;
 }
 .meta-crest {
   width: 14px;
   height: 14px;
   border-radius: 50%;
-  background: rgba(0,0,0,0.18);
-  box-shadow: 0 0 0 1px rgba(0,0,0,0.22) inset;
+  background: rgba(255,255,255,0.08);
+  box-shadow: 0 0 0 1px rgba(255,255,255,0.18) inset;
 }
 
 /* holo overlay for rare tiers — subtle by default, comes alive on hover/tilt */
