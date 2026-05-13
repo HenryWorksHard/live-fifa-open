@@ -14,13 +14,38 @@
 
     <!-- Top bar -->
     <header class="topbar">
-      <div class="brand">
-        <span class="brand-mark">LFO</span>
-        <span class="brand-text">Live&nbsp;FIFA&nbsp;Open</span>
+      <div class="topbar-flags" aria-hidden="true">
+        <img src="https://flagcdn.com/h40/ar.png" alt="">
+        <img src="https://flagcdn.com/h40/fr.png" alt="">
+        <img src="https://flagcdn.com/h40/br.png" alt="">
+        <img src="https://flagcdn.com/h40/de.png" alt="">
+        <img src="https://flagcdn.com/h40/es.png" alt="">
+        <img src="https://flagcdn.com/h40/gb-eng.png" alt="">
+        <img src="https://flagcdn.com/h40/pt.png" alt="">
+        <img src="https://flagcdn.com/h40/nl.png" alt="">
+        <img src="https://flagcdn.com/h40/it.png" alt="">
+        <img src="https://flagcdn.com/h40/be.png" alt="">
+        <img src="https://flagcdn.com/h40/jp.png" alt="">
+        <img src="https://flagcdn.com/h40/kr.png" alt="">
+        <img src="https://flagcdn.com/h40/mx.png" alt="">
+        <img src="https://flagcdn.com/h40/us.png" alt="">
+        <img src="https://flagcdn.com/h40/ma.png" alt="">
+        <img src="https://flagcdn.com/h40/ng.png" alt="">
       </div>
-      <nav class="topbar-nav">
-        <button class="ghost-btn" data-action="reset" title="Back to packs">Packs</button>
-      </nav>
+      <div class="topbar-tint" aria-hidden="true"></div>
+      <div class="topbar-content">
+        <div class="brand">
+          <span class="brand-mark">LFO</span>
+          <span class="brand-text">Live&nbsp;FIFA&nbsp;Open</span>
+        </div>
+        <nav class="topbar-nav">
+          <button class="ghost-btn ca-btn" id="copy-ca-btn" data-address="" title="Copy contract address">CA</button>
+          <a class="ghost-btn icon-btn" id="x-link" href="#" target="_blank" rel="noopener" aria-label="X / Twitter">
+            <svg viewBox="0 0 24 24" width="13" height="13" aria-hidden="true"><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231Zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+          <button class="ghost-btn" data-action="reset" title="Back to packs">Packs</button>
+        </nav>
+      </div>
     </header>
 
     <!-- Session stats bar (visible during pack/reveal) -->

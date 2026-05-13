@@ -56,16 +56,43 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; col
    Top bar
    ============================================================ */
 .topbar {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  border-bottom: 1px solid var(--line);
+  overflow: hidden;
+  isolation: isolate;
+}
+.topbar-flags {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  z-index: 0;
+  filter: saturate(1.15);
+}
+.topbar-flags img {
+  flex: 1 1 0;
+  min-width: 0;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.topbar-tint {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background:
+    linear-gradient(180deg, rgba(7,9,14,0.55) 0%, rgba(7,9,14,0.78) 100%),
+    radial-gradient(ellipse at center, rgba(0,0,0,0) 0%, rgba(0,0,0,0.35) 100%);
+  backdrop-filter: blur(2px);
+}
+.topbar-content {
+  position: relative;
+  z-index: 2;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 18px 28px;
-  border-bottom: 1px solid var(--line);
-  background: rgba(7, 9, 14, 0.7);
-  backdrop-filter: blur(10px);
-  position: sticky;
-  top: 0;
-  z-index: 50;
 }
 .brand { display: flex; align-items: center; gap: 12px; }
 .brand-mark {
@@ -88,14 +115,22 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; col
 .topbar-nav { display: flex; gap: 8px; }
 .ghost-btn {
   padding: 9px 14px;
-  border: 1px solid var(--line);
+  border: 1px solid rgba(255,255,255,0.18);
   border-radius: 999px;
-  color: var(--text-dim);
-  font-weight: 600;
+  color: var(--text);
+  background: rgba(7,9,14,0.55);
+  font-weight: 700;
   font-size: 13px;
+  letter-spacing: 0.3px;
   transition: 160ms ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
 }
-.ghost-btn:hover { color: var(--text); border-color: var(--text-dim); }
+.ghost-btn:hover { background: rgba(7,9,14,0.85); border-color: rgba(255,255,255,0.4); }
+.icon-btn { padding: 9px 11px; }
+.ca-btn { letter-spacing: 1.2px; font-size: 12px; }
 
 /* ============================================================
    Stats bar (pikawiz-style header during pack/reveal)

@@ -69,7 +69,29 @@ function wireUI() {
   $('#open-another-btn').addEventListener('click', resetToPicker);
   $('#reset-stats').addEventListener('click', resetSession);
   $('#another-pack').addEventListener('click', resetToPicker);
+  wireCaButton();
   renderSessionStats();
+}
+
+function wireCaButton() {
+  const btn = $('#copy-ca-btn');
+  if (!btn) return;
+  btn.addEventListener('click', async () => {
+    const addr = btn.dataset.address?.trim();
+    const original = 'CA';
+    if (!addr) {
+      btn.textContent = 'TBA';
+      setTimeout(() => { btn.textContent = original; }, 1200);
+      return;
+    }
+    try {
+      await navigator.clipboard.writeText(addr);
+      btn.textContent = 'Copied';
+    } catch {
+      btn.textContent = addr.slice(0, 6) + '…';
+    }
+    setTimeout(() => { btn.textContent = original; }, 1500);
+  });
 }
 
 function resetSession() {
