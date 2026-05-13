@@ -269,19 +269,19 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; col
 .pack {
   background:
     radial-gradient(120% 60% at 50% -10%, rgba(255,255,255,0.18), transparent 60%),
-    url('assets/pack-art.png') center / cover no-repeat,
+    url('assets/card-back.png') center / cover no-repeat,
     #2a1e0a;
 }
 .pack-preview--purple {
   background:
     linear-gradient(180deg, rgba(63,28,110,0.55), rgba(122,53,217,0.4) 50%, rgba(23,11,42,0.65)),
-    url('assets/pack-art.png') center / cover no-repeat,
+    url('assets/card-back.png') center / cover no-repeat,
     #170b2a;
 }
 .pack-preview--black {
   background:
     linear-gradient(180deg, rgba(10,10,14,0.55), rgba(26,26,34,0.45) 50%, rgba(10,10,14,0.7)),
-    url('assets/pack-art.png') center / cover no-repeat,
+    url('assets/card-back.png') center / cover no-repeat,
     #0a0a0e;
 }
 
@@ -534,7 +534,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; col
 .card.is-revealed .card-back { opacity: 0; }
 .card.is-revealed .card-face { opacity: 1; }
 .card-back {
-  background: url('assets/card-back.png') center / cover no-repeat #1a140a;
+  background: url('assets/pack-art.png') center / cover no-repeat #1a140a;
   display: grid;
   place-items: center;
   border: 1px solid rgba(255,255,255,0.08);
