@@ -1,0 +1,115 @@
+{
+  "version": 1,
+  "set": "live-fifa-open-2026",
+  "setName": "Live FIFA Open — World Cup 2026",
+  "cards": [
+    { "id": "lfo-001", "name": "L. Messi",        "nation": "Argentina",   "nationCode": "ARG", "position": "RW",  "rating": 91, "rarity": "icon",      "stats": { "PAC": 80, "SHO": 89, "PAS": 90, "DRI": 94, "DEF": 33, "PHY": 67 } },
+    { "id": "lfo-002", "name": "K. Mbappé",       "nation": "France",      "nationCode": "FRA", "position": "ST",  "rating": 92, "rarity": "hero",      "stats": { "PAC": 97, "SHO": 90, "PAS": 80, "DRI": 92, "DEF": 36, "PHY": 78 } },
+    { "id": "lfo-003", "name": "E. Haaland",      "nation": "Norway",      "nationCode": "NOR", "position": "ST",  "rating": 91, "rarity": "hero",      "stats": { "PAC": 89, "SHO": 94, "PAS": 67, "DRI": 80, "DEF": 45, "PHY": 89 } },
+    { "id": "lfo-004", "name": "J. Bellingham",   "nation": "England",     "nationCode": "ENG", "position": "CAM", "rating": 90, "rarity": "hero",      "stats": { "PAC": 81, "SHO": 86, "PAS": 84, "DRI": 88, "DEF": 76, "PHY": 87 } },
+    { "id": "lfo-005", "name": "Vinícius Jr.",    "nation": "Brazil",      "nationCode": "BRA", "position": "LW",  "rating": 90, "rarity": "rare_gold", "stats": { "PAC": 95, "SHO": 86, "PAS": 81, "DRI": 94, "DEF": 30, "PHY": 70 } },
+    { "id": "lfo-006", "name": "Rodri",           "nation": "Spain",       "nationCode": "ESP", "position": "CDM", "rating": 91, "rarity": "rare_gold", "stats": { "PAC": 65, "SHO": 79, "PAS": 86, "DRI": 84, "DEF": 88, "PHY": 86 } },
+    { "id": "lfo-007", "name": "L. Yamal",        "nation": "Spain",       "nationCode": "ESP", "position": "RW",  "rating": 86, "rarity": "gold",      "stats": { "PAC": 88, "SHO": 78, "PAS": 80, "DRI": 91, "DEF": 35, "PHY": 65 } },
+    { "id": "lfo-008", "name": "F. Wirtz",        "nation": "Germany",     "nationCode": "GER", "position": "CAM", "rating": 87, "rarity": "gold",      "stats": { "PAC": 82, "SHO": 80, "PAS": 86, "DRI": 89, "DEF": 50, "PHY": 65 } },
+    { "id": "lfo-009", "name": "J. Musiala",      "nation": "Germany",     "nationCode": "GER", "position": "CAM", "rating": 87, "rarity": "gold",      "stats": { "PAC": 84, "SHO": 78, "PAS": 81, "DRI": 91, "DEF": 45, "PHY": 68 } },
+    { "id": "lfo-010", "name": "P. Foden",        "nation": "England",     "nationCode": "ENG", "position": "CM",  "rating": 87, "rarity": "gold",      "stats": { "PAC": 82, "SHO": 84, "PAS": 84, "DRI": 90, "DEF": 60, "PHY": 70 } },
+    { "id": "lfo-011", "name": "B. Saka",         "nation": "England",     "nationCode": "ENG", "position": "RW",  "rating": 86, "rarity": "gold",      "stats": { "PAC": 87, "SHO": 82, "PAS": 81, "DRI": 89, "DEF": 50, "PHY": 70 } },
+    { "id": "lfo-012", "name": "Pedri",           "nation": "Spain",       "nationCode": "ESP", "position": "CM",  "rating": 86, "rarity": "gold",      "stats": { "PAC": 76, "SHO": 75, "PAS": 86, "DRI": 90, "DEF": 70, "PHY": 65 } },
+    { "id": "lfo-013", "name": "K. De Bruyne",    "nation": "Belgium",     "nationCode": "BEL", "position": "CM",  "rating": 89, "rarity": "rare_gold", "stats": { "PAC": 72, "SHO": 86, "PAS": 93, "DRI": 87, "DEF": 65, "PHY": 78 } },
+    { "id": "lfo-014", "name": "V. van Dijk",     "nation": "Netherlands", "nationCode": "NED", "position": "CB",  "rating": 89, "rarity": "gold",      "stats": { "PAC": 76, "SHO": 60, "PAS": 71, "DRI": 72, "DEF": 91, "PHY": 90 } },
+    { "id": "lfo-015", "name": "T. Alexander-Arnold", "nation": "England", "nationCode": "ENG", "position": "RB",  "rating": 87, "rarity": "gold",      "stats": { "PAC": 79, "SHO": 73, "PAS": 91, "DRI": 84, "DEF": 80, "PHY": 70 } },
+    { "id": "lfo-016", "name": "Antony",          "nation": "Brazil",      "nationCode": "BRA", "position": "RW",  "rating": 78, "rarity": "gold",      "stats": { "PAC": 84, "SHO": 75, "PAS": 76, "DRI": 85, "DEF": 35, "PHY": 65 } },
+    { "id": "lfo-017", "name": "M. Akanji",       "nation": "Switzerland", "nationCode": "SUI", "position": "CB",  "rating": 84, "rarity": "gold",      "stats": { "PAC": 78, "SHO": 50, "PAS": 71, "DRI": 75, "DEF": 86, "PHY": 84 } },
+    { "id": "lfo-018", "name": "H. Son",          "nation": "South Korea", "nationCode": "KOR", "position": "LW",  "rating": 87, "rarity": "gold",      "stats": { "PAC": 87, "SHO": 86, "PAS": 81, "DRI": 87, "DEF": 45, "PHY": 70 } },
+    { "id": "lfo-019", "name": "L. Modrić",       "nation": "Croatia",     "nationCode": "CRO", "position": "CM",  "rating": 87, "rarity": "icon",      "stats": { "PAC": 70, "SHO": 78, "PAS": 88, "DRI": 88, "DEF": 72, "PHY": 65 } },
+    { "id": "lfo-020", "name": "T. Hernández",    "nation": "France",      "nationCode": "FRA", "position": "LB",  "rating": 85, "rarity": "gold",      "stats": { "PAC": 87, "SHO": 70, "PAS": 78, "DRI": 82, "DEF": 82, "PHY": 84 } },
+    { "id": "lfo-021", "name": "Casemiro",        "nation": "Brazil",      "nationCode": "BRA", "position": "CDM", "rating": 85, "rarity": "gold",      "stats": { "PAC": 64, "SHO": 70, "PAS": 78, "DRI": 78, "DEF": 88, "PHY": 88 } },
+    { "id": "lfo-022", "name": "C. Pulisic",      "nation": "USA",         "nationCode": "USA", "position": "RW",  "rating": 81, "rarity": "gold",      "stats": { "PAC": 84, "SHO": 78, "PAS": 79, "DRI": 85, "DEF": 45, "PHY": 67 } },
+    { "id": "lfo-023", "name": "A. Davies",       "nation": "Canada",      "nationCode": "CAN", "position": "LB",  "rating": 82, "rarity": "gold",      "stats": { "PAC": 94, "SHO": 60, "PAS": 75, "DRI": 80, "DEF": 78, "PHY": 76 } },
+    { "id": "lfo-024", "name": "R. Lukaku",       "nation": "Belgium",     "nationCode": "BEL", "position": "ST",  "rating": 84, "rarity": "gold",      "stats": { "PAC": 80, "SHO": 87, "PAS": 70, "DRI": 78, "DEF": 38, "PHY": 88 } },
+    { "id": "lfo-025", "name": "G. Lozano",       "nation": "Mexico",      "nationCode": "MEX", "position": "RW",  "rating": 79, "rarity": "gold",      "stats": { "PAC": 88, "SHO": 75, "PAS": 73, "DRI": 82, "DEF": 40, "PHY": 65 } },
+    { "id": "lfo-026", "name": "M. Olise",        "nation": "France",      "nationCode": "FRA", "position": "RW",  "rating": 82, "rarity": "gold",      "stats": { "PAC": 82, "SHO": 78, "PAS": 80, "DRI": 87, "DEF": 40, "PHY": 65 } },
+    { "id": "lfo-027", "name": "R. Lewandowski",  "nation": "Poland",      "nationCode": "POL", "position": "ST",  "rating": 88, "rarity": "rare_gold", "stats": { "PAC": 75, "SHO": 91, "PAS": 78, "DRI": 84, "DEF": 44, "PHY": 82 } },
+    { "id": "lfo-028", "name": "M. Salah",        "nation": "Egypt",       "nationCode": "EGY", "position": "RW",  "rating": 89, "rarity": "hero",      "stats": { "PAC": 89, "SHO": 88, "PAS": 81, "DRI": 89, "DEF": 45, "PHY": 75 } },
+    { "id": "lfo-029", "name": "S. Mané",         "nation": "Senegal",     "nationCode": "SEN", "position": "LW",  "rating": 84, "rarity": "gold",      "stats": { "PAC": 87, "SHO": 83, "PAS": 78, "DRI": 86, "DEF": 45, "PHY": 76 } },
+    { "id": "lfo-030", "name": "K. Koulibaly",    "nation": "Senegal",     "nationCode": "SEN", "position": "CB",  "rating": 84, "rarity": "gold",      "stats": { "PAC": 75, "SHO": 35, "PAS": 64, "DRI": 70, "DEF": 87, "PHY": 88 } },
+    { "id": "lfo-031", "name": "J. Stones",       "nation": "England",     "nationCode": "ENG", "position": "CB",  "rating": 84, "rarity": "gold",      "stats": { "PAC": 72, "SHO": 45, "PAS": 78, "DRI": 76, "DEF": 84, "PHY": 80 } },
+    { "id": "lfo-032", "name": "M. Rashford",     "nation": "England",     "nationCode": "ENG", "position": "LW",  "rating": 82, "rarity": "gold",      "stats": { "PAC": 90, "SHO": 80, "PAS": 73, "DRI": 84, "DEF": 38, "PHY": 70 } },
+    { "id": "lfo-033", "name": "G. Donnarumma",   "nation": "Italy",       "nationCode": "ITA", "position": "GK",  "rating": 89, "rarity": "rare_gold", "stats": { "PAC": 87, "SHO": 88, "PAS": 78, "DRI": 89, "DEF": 39, "PHY": 88 } },
+    { "id": "lfo-034", "name": "T. Courtois",     "nation": "Belgium",     "nationCode": "BEL", "position": "GK",  "rating": 90, "rarity": "rare_gold", "stats": { "PAC": 88, "SHO": 89, "PAS": 79, "DRI": 91, "DEF": 39, "PHY": 89 } },
+    { "id": "lfo-035", "name": "Pelé",            "nation": "Brazil",      "nationCode": "BRA", "position": "ST",  "rating": 98, "rarity": "icon",      "stats": { "PAC": 95, "SHO": 96, "PAS": 93, "DRI": 96, "DEF": 60, "PHY": 76 } },
+    { "id": "lfo-036", "name": "Maradona",        "nation": "Argentina",   "nationCode": "ARG", "position": "CAM", "rating": 97, "rarity": "icon",      "stats": { "PAC": 90, "SHO": 92, "PAS": 93, "DRI": 98, "DEF": 50, "PHY": 76 } },
+
+    { "id": "lfo-037", "name": "C. Ronaldo",      "nation": "Portugal",    "nationCode": "POR", "position": "ST",  "rating": 86, "rarity": "rare_gold", "stats": { "PAC": 78, "SHO": 92, "PAS": 75, "DRI": 81, "DEF": 35, "PHY": 76 } },
+    { "id": "lfo-038", "name": "B. Silva",        "nation": "Portugal",    "nationCode": "POR", "position": "CAM", "rating": 88, "rarity": "rare_gold", "stats": { "PAC": 80, "SHO": 80, "PAS": 86, "DRI": 90, "DEF": 64, "PHY": 68 } },
+    { "id": "lfo-039", "name": "J. Félix",        "nation": "Portugal",    "nationCode": "POR", "position": "CF",  "rating": 84, "rarity": "gold",      "stats": { "PAC": 82, "SHO": 83, "PAS": 78, "DRI": 87, "DEF": 40, "PHY": 65 } },
+    { "id": "lfo-040", "name": "R. Leão",         "nation": "Portugal",    "nationCode": "POR", "position": "LW",  "rating": 86, "rarity": "gold",      "stats": { "PAC": 91, "SHO": 80, "PAS": 78, "DRI": 88, "DEF": 38, "PHY": 75 } },
+
+    { "id": "lfo-041", "name": "F. Valverde",     "nation": "Uruguay",     "nationCode": "URU", "position": "CM",  "rating": 88, "rarity": "rare_gold", "stats": { "PAC": 83, "SHO": 84, "PAS": 85, "DRI": 84, "DEF": 78, "PHY": 87 } },
+    { "id": "lfo-042", "name": "D. Núñez",        "nation": "Uruguay",     "nationCode": "URU", "position": "ST",  "rating": 83, "rarity": "gold",      "stats": { "PAC": 92, "SHO": 84, "PAS": 70, "DRI": 80, "DEF": 38, "PHY": 82 } },
+    { "id": "lfo-043", "name": "R. Araújo",       "nation": "Uruguay",     "nationCode": "URU", "position": "CB",  "rating": 86, "rarity": "gold",      "stats": { "PAC": 80, "SHO": 45, "PAS": 70, "DRI": 75, "DEF": 88, "PHY": 88 } },
+
+    { "id": "lfo-044", "name": "L. Díaz",         "nation": "Colombia",    "nationCode": "COL", "position": "LW",  "rating": 85, "rarity": "gold",      "stats": { "PAC": 88, "SHO": 80, "PAS": 78, "DRI": 88, "DEF": 38, "PHY": 72 } },
+    { "id": "lfo-045", "name": "J. Rodríguez",    "nation": "Colombia",    "nationCode": "COL", "position": "CAM", "rating": 80, "rarity": "gold",      "stats": { "PAC": 70, "SHO": 80, "PAS": 86, "DRI": 84, "DEF": 50, "PHY": 65 } },
+
+    { "id": "lfo-046", "name": "T. Kubo",         "nation": "Japan",       "nationCode": "JPN", "position": "RW",  "rating": 84, "rarity": "gold",      "stats": { "PAC": 84, "SHO": 78, "PAS": 80, "DRI": 87, "DEF": 50, "PHY": 60 } },
+    { "id": "lfo-047", "name": "K. Mitoma",       "nation": "Japan",       "nationCode": "JPN", "position": "LW",  "rating": 83, "rarity": "gold",      "stats": { "PAC": 87, "SHO": 76, "PAS": 76, "DRI": 87, "DEF": 45, "PHY": 70 } },
+    { "id": "lfo-048", "name": "W. Endō",         "nation": "Japan",       "nationCode": "JPN", "position": "CDM", "rating": 82, "rarity": "gold",      "stats": { "PAC": 70, "SHO": 70, "PAS": 76, "DRI": 78, "DEF": 84, "PHY": 84 } },
+
+    { "id": "lfo-049", "name": "M. Ryan",         "nation": "Australia",   "nationCode": "AUS", "position": "GK",  "rating": 80, "rarity": "gold",      "stats": { "PAC": 80, "SHO": 78, "PAS": 70, "DRI": 80, "DEF": 39, "PHY": 78 } },
+    { "id": "lfo-050", "name": "H. Souttar",      "nation": "Australia",   "nationCode": "AUS", "position": "CB",  "rating": 78, "rarity": "gold",      "stats": { "PAC": 60, "SHO": 38, "PAS": 60, "DRI": 65, "DEF": 80, "PHY": 86 } },
+
+    { "id": "lfo-051", "name": "M. Taremi",       "nation": "Iran",        "nationCode": "IRN", "position": "ST",  "rating": 82, "rarity": "gold",      "stats": { "PAC": 76, "SHO": 84, "PAS": 75, "DRI": 80, "DEF": 40, "PHY": 80 } },
+    { "id": "lfo-052", "name": "S. Azmoun",       "nation": "Iran",        "nationCode": "IRN", "position": "ST",  "rating": 80, "rarity": "gold",      "stats": { "PAC": 80, "SHO": 82, "PAS": 70, "DRI": 78, "DEF": 35, "PHY": 78 } },
+
+    { "id": "lfo-053", "name": "H. Ziyech",       "nation": "Morocco",     "nationCode": "MAR", "position": "RW",  "rating": 82, "rarity": "gold",      "stats": { "PAC": 75, "SHO": 80, "PAS": 86, "DRI": 85, "DEF": 50, "PHY": 65 } },
+    { "id": "lfo-054", "name": "A. Hakimi",       "nation": "Morocco",     "nationCode": "MAR", "position": "RB",  "rating": 86, "rarity": "rare_gold", "stats": { "PAC": 93, "SHO": 76, "PAS": 80, "DRI": 84, "DEF": 78, "PHY": 78 } },
+    { "id": "lfo-055", "name": "Y. Bounou",       "nation": "Morocco",     "nationCode": "MAR", "position": "GK",  "rating": 85, "rarity": "gold",      "stats": { "PAC": 85, "SHO": 84, "PAS": 70, "DRI": 86, "DEF": 39, "PHY": 84 } },
+
+    { "id": "lfo-056", "name": "V. Osimhen",      "nation": "Nigeria",     "nationCode": "NGA", "position": "ST",  "rating": 88, "rarity": "hero",      "stats": { "PAC": 90, "SHO": 87, "PAS": 70, "DRI": 84, "DEF": 40, "PHY": 86 } },
+    { "id": "lfo-057", "name": "W. Ndidi",        "nation": "Nigeria",     "nationCode": "NGA", "position": "CDM", "rating": 80, "rarity": "gold",      "stats": { "PAC": 70, "SHO": 60, "PAS": 70, "DRI": 75, "DEF": 84, "PHY": 84 } },
+
+    { "id": "lfo-058", "name": "M. Kudus",        "nation": "Ghana",       "nationCode": "GHA", "position": "CAM", "rating": 83, "rarity": "gold",      "stats": { "PAC": 80, "SHO": 80, "PAS": 78, "DRI": 87, "DEF": 50, "PHY": 70 } },
+
+    { "id": "lfo-059", "name": "S. Haller",       "nation": "Ivory Coast", "nationCode": "CIV", "position": "ST",  "rating": 81, "rarity": "gold",      "stats": { "PAC": 76, "SHO": 82, "PAS": 70, "DRI": 76, "DEF": 38, "PHY": 84 } },
+    { "id": "lfo-060", "name": "F. Kessié",       "nation": "Ivory Coast", "nationCode": "CIV", "position": "CM",  "rating": 82, "rarity": "gold",      "stats": { "PAC": 70, "SHO": 76, "PAS": 78, "DRI": 78, "DEF": 80, "PHY": 84 } },
+
+    { "id": "lfo-061", "name": "A. Onana",        "nation": "Cameroon",    "nationCode": "CMR", "position": "GK",  "rating": 84, "rarity": "gold",      "stats": { "PAC": 84, "SHO": 82, "PAS": 75, "DRI": 84, "DEF": 39, "PHY": 80 } },
+
+    { "id": "lfo-062", "name": "R. Højlund",      "nation": "Denmark",     "nationCode": "DEN", "position": "ST",  "rating": 80, "rarity": "gold",      "stats": { "PAC": 86, "SHO": 78, "PAS": 65, "DRI": 75, "DEF": 36, "PHY": 78 } },
+    { "id": "lfo-063", "name": "C. Eriksen",      "nation": "Denmark",     "nationCode": "DEN", "position": "CM",  "rating": 83, "rarity": "gold",      "stats": { "PAC": 65, "SHO": 78, "PAS": 86, "DRI": 80, "DEF": 60, "PHY": 65 } },
+
+    { "id": "lfo-064", "name": "A. Isak",         "nation": "Sweden",      "nationCode": "SWE", "position": "ST",  "rating": 85, "rarity": "gold",      "stats": { "PAC": 84, "SHO": 84, "PAS": 75, "DRI": 84, "DEF": 38, "PHY": 76 } },
+    { "id": "lfo-065", "name": "V. Gyökeres",     "nation": "Sweden",      "nationCode": "SWE", "position": "ST",  "rating": 84, "rarity": "gold",      "stats": { "PAC": 85, "SHO": 86, "PAS": 72, "DRI": 80, "DEF": 38, "PHY": 84 } },
+
+    { "id": "lfo-066", "name": "D. Vlahović",     "nation": "Serbia",      "nationCode": "SRB", "position": "ST",  "rating": 83, "rarity": "gold",      "stats": { "PAC": 80, "SHO": 85, "PAS": 70, "DRI": 80, "DEF": 35, "PHY": 84 } },
+    { "id": "lfo-067", "name": "S. Milinković-Savić","nation": "Serbia",   "nationCode": "SRB", "position": "CM",  "rating": 85, "rarity": "gold",      "stats": { "PAC": 70, "SHO": 82, "PAS": 84, "DRI": 80, "DEF": 70, "PHY": 86 } },
+
+    { "id": "lfo-068", "name": "H. Çalhanoğlu",   "nation": "Türkiye",     "nationCode": "TUR", "position": "CM",  "rating": 86, "rarity": "rare_gold", "stats": { "PAC": 72, "SHO": 84, "PAS": 88, "DRI": 84, "DEF": 76, "PHY": 78 } },
+    { "id": "lfo-069", "name": "A. Güler",        "nation": "Türkiye",     "nationCode": "TUR", "position": "CAM", "rating": 80, "rarity": "gold",      "stats": { "PAC": 75, "SHO": 78, "PAS": 84, "DRI": 86, "DEF": 50, "PHY": 60 } },
+
+    { "id": "lfo-070", "name": "A. Robertson",    "nation": "Scotland",    "nationCode": "SCO", "position": "LB",  "rating": 85, "rarity": "gold",      "stats": { "PAC": 85, "SHO": 70, "PAS": 84, "DRI": 78, "DEF": 84, "PHY": 78 } },
+    { "id": "lfo-071", "name": "S. McTominay",    "nation": "Scotland",    "nationCode": "SCO", "position": "CM",  "rating": 81, "rarity": "gold",      "stats": { "PAC": 70, "SHO": 78, "PAS": 75, "DRI": 76, "DEF": 76, "PHY": 84 } },
+
+    { "id": "lfo-072", "name": "D. Szoboszlai",   "nation": "Hungary",     "nationCode": "HUN", "position": "CAM", "rating": 83, "rarity": "gold",      "stats": { "PAC": 80, "SHO": 80, "PAS": 82, "DRI": 84, "DEF": 65, "PHY": 78 } },
+
+    { "id": "lfo-073", "name": "K. Schmeichel",   "nation": "Denmark",     "nationCode": "DEN", "position": "GK",  "rating": 83, "rarity": "gold",      "stats": { "PAC": 84, "SHO": 80, "PAS": 65, "DRI": 84, "DEF": 39, "PHY": 80 } },
+
+    { "id": "lfo-074", "name": "K. Navas",        "nation": "Costa Rica",  "nationCode": "CRC", "position": "GK",  "rating": 81, "rarity": "gold",      "stats": { "PAC": 82, "SHO": 82, "PAS": 70, "DRI": 82, "DEF": 39, "PHY": 78 } },
+
+    { "id": "lfo-075", "name": "M. Antuna",       "nation": "Mexico",      "nationCode": "MEX", "position": "LW",  "rating": 77, "rarity": "gold",      "stats": { "PAC": 86, "SHO": 72, "PAS": 70, "DRI": 80, "DEF": 38, "PHY": 60 } },
+    { "id": "lfo-076", "name": "R. Jiménez",      "nation": "Mexico",      "nationCode": "MEX", "position": "ST",  "rating": 78, "rarity": "gold",      "stats": { "PAC": 72, "SHO": 80, "PAS": 70, "DRI": 75, "DEF": 38, "PHY": 80 } },
+
+    { "id": "lfo-077", "name": "W. McKennie",     "nation": "USA",         "nationCode": "USA", "position": "CM",  "rating": 78, "rarity": "gold",      "stats": { "PAC": 72, "SHO": 75, "PAS": 76, "DRI": 76, "DEF": 72, "PHY": 80 } },
+    { "id": "lfo-078", "name": "Y. Musah",        "nation": "USA",         "nationCode": "USA", "position": "CM",  "rating": 76, "rarity": "gold",      "stats": { "PAC": 80, "SHO": 65, "PAS": 72, "DRI": 80, "DEF": 65, "PHY": 76 } },
+    { "id": "lfo-079", "name": "T. Adams",        "nation": "USA",         "nationCode": "USA", "position": "CDM", "rating": 78, "rarity": "gold",      "stats": { "PAC": 78, "SHO": 60, "PAS": 72, "DRI": 76, "DEF": 80, "PHY": 80 } },
+
+    { "id": "lfo-080", "name": "J. David",        "nation": "Canada",      "nationCode": "CAN", "position": "ST",  "rating": 82, "rarity": "gold",      "stats": { "PAC": 82, "SHO": 82, "PAS": 75, "DRI": 80, "DEF": 38, "PHY": 76 } },
+
+    { "id": "lfo-081", "name": "L. Suárez",       "nation": "Uruguay",     "nationCode": "URU", "position": "ST",  "rating": 88, "rarity": "icon",      "stats": { "PAC": 75, "SHO": 92, "PAS": 80, "DRI": 86, "DEF": 45, "PHY": 80 } },
+
+    { "id": "lfo-082", "name": "Zidane",          "nation": "France",      "nationCode": "FRA", "position": "CAM", "rating": 96, "rarity": "icon",      "stats": { "PAC": 80, "SHO": 89, "PAS": 93, "DRI": 95, "DEF": 65, "PHY": 80 } },
+    { "id": "lfo-083", "name": "Cruyff",          "nation": "Netherlands", "nationCode": "NED", "position": "CF",  "rating": 95, "rarity": "icon",      "stats": { "PAC": 92, "SHO": 88, "PAS": 90, "DRI": 96, "DEF": 50, "PHY": 70 } },
+    { "id": "lfo-084", "name": "R. Carlos",       "nation": "Brazil",      "nationCode": "BRA", "position": "LB",  "rating": 92, "rarity": "icon",      "stats": { "PAC": 96, "SHO": 84, "PAS": 84, "DRI": 86, "DEF": 86, "PHY": 90 } }
+  ]
+}
