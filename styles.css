@@ -531,27 +531,17 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; col
 .card.is-revealed .card-back { opacity: 0; }
 .card.is-revealed .card-face { opacity: 1; }
 .card-back {
-  background:
-    radial-gradient(120% 60% at 50% -10%, rgba(255,255,255,0.2), transparent 60%),
-    linear-gradient(180deg, #2a1e0a 0%, #6e4a13 35%, #b88a2a 70%, #2a1e0a 100%);
+  background: url('assets/card-back.png') center / cover no-repeat #1a140a;
   display: grid;
   place-items: center;
   border: 1px solid rgba(255,255,255,0.08);
 }
 .card-back::before {
-  content: "";
-  position: absolute;
-  inset: 14px;
-  border: 2px solid rgba(255,255,255,0.18);
-  border-radius: 10px;
+  content: none;
 }
 .card-back-logo {
-  font-family: 'Anton', sans-serif;
-  font-size: 22px;
-  letter-spacing: 4px;
-  color: #fff;
-  opacity: 0.85;
-  text-shadow: 0 2px 8px rgba(0,0,0,0.5);
+  /* The art already has its own emblem; hide the text overlay */
+  display: none;
 }
 /* face/back now stack via opacity crossfade — no 3D backface trick. */
 
