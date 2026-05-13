@@ -227,7 +227,10 @@ function buildRevealStage() {
   let isFlipping = false;
   const flipNext = () => {
     if (isFlipping || idx >= currentPool.length) return;
-    const el = stack.children[stack.children.length - 1 - idx];
+    // Always reveal the top of the stack (first DOM child = highest z-index).
+    // Cards were sorted lowest-rarity-first, so the best card is at the bottom
+    // of the stack and reveals last for drama.
+    const el = stack.children[0];
     if (!el) return;
     const card = currentPool[idx];
     const isSpecial = SPECIAL_RARITIES.has(card.rarity);
@@ -254,10 +257,18 @@ function buildRevealStage() {
     }
 
     setTimeout(() => {
-      // settle: keep .is-spinning so the animation's forwards-fill holds the face-up state.
-      // setting inline transform here would trigger a 500ms backwards transition (540°->180°),
-      // flashing the back. Leave the keyframe fill in place — the card just stays face-up.
-      el.classList.remove('is-special');
+      // Lock the spin animation's final state into inline styles BEFORE removing
+      // the classes. Without this, removing `is-special` causes the non-special
+      // animation rule (which starts from rotateY(0)) to restart the spin from
+      // scratch, leaving the card mid-rotation when the user looks at it.
+      const inner = el.querySelector('.card-inner');
+      inner.style.animation = 'none';
+      inner.style.transform = 'rotateY(0deg) scale(1)';
+      inner.style.filter = 'none';
+      el.querySelector('.card-back').style.opacity = '0';
+      el.querySelector('.card-face').style.opacity = '1';
+
+      el.classList.remove('is-spinning', 'is-special');
       stage.classList.remove('flash-special');
       el.style.zIndex = '';
 
