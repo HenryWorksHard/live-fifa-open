@@ -333,7 +333,11 @@ function makeCardElement(card) {
             <span class="skill-stars">${stars}★</span>
           </div>
         </div>
-        <div class="card-portrait"><svg viewBox="0 0 100 120" preserveAspectRatio="xMidYMax meet"><use href="#silhouette"/></svg></div>
+        <div class="card-portrait">${
+        card.faceUrl
+          ? `<img class="portrait-img" src="${card.faceUrl}" alt="${escapeHTML(card.name)}" loading="lazy" referrerpolicy="no-referrer">`
+          : `<svg viewBox="0 0 100 120" preserveAspectRatio="xMidYMax meet"><use href="#silhouette"/></svg>`
+        }</div>
         <div class="card-name">${escapeHTML(card.name)}</div>
         <div class="card-stats">
           <div class="card-stat"><span>PAC</span><b>${card.stats.PAC}</b></div>
