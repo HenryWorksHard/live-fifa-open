@@ -358,7 +358,7 @@ function makeCardElement(card) {
   el.innerHTML = `
     <div class="card-inner">
       <div class="card-back">
-        <span class="card-back-logo">LFO</span>
+        <span class="card-back-logo">P</span>
       </div>
       <div class="card-face">
         <div class="card-photo">${
