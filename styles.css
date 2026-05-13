@@ -81,10 +81,8 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; col
   position: absolute;
   inset: 0;
   z-index: 1;
-  background:
-    linear-gradient(180deg, rgba(7,9,14,0.55) 0%, rgba(7,9,14,0.78) 100%),
-    radial-gradient(ellipse at center, rgba(0,0,0,0) 0%, rgba(0,0,0,0.35) 100%);
-  backdrop-filter: blur(2px);
+  background: linear-gradient(180deg, rgba(7,9,14,0.28) 0%, rgba(7,9,14,0.55) 100%);
+  backdrop-filter: blur(1px);
 }
 .topbar-content {
   position: relative;
