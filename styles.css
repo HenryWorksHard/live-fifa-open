@@ -452,6 +452,11 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; col
   display: grid;
   place-items: center;
   perspective: 1500px;
+  transition: height 400ms cubic-bezier(.2,.7,.2,1);
+  overflow: hidden;
+}
+.reveal-stage.all-revealed {
+  height: 0;
 }
 .reveal-hint {
   color: var(--text-dim);

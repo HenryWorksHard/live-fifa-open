@@ -113,7 +113,9 @@ function renderSessionStats() {
 function resetToPicker() {
   goScreen('picker');
   delete app.dataset.state;
-  $('#reveal-stage').innerHTML = '';
+  const stage = $('#reveal-stage');
+  stage.innerHTML = '';
+  stage.classList.remove('all-revealed');
   const row = $('.reveal-row');
   if (row) row.remove();
   $('#reveal-hint').textContent = 'Tap to reveal';
@@ -308,6 +310,8 @@ function buildRevealStage() {
       if (idx >= currentPool.length) {
         $('#reveal-hint').textContent = 'Drop complete';
         $('#open-another-btn').hidden = false;
+        // Collapse the empty stack area so the revealed row hugs the top
+        stage.classList.add('all-revealed');
       } else {
         $('#reveal-hint').textContent = `${currentPool.length - idx} left — tap to reveal`;
       }
