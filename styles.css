@@ -268,18 +268,21 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; col
 .pack-preview--gold,
 .pack {
   background:
-    radial-gradient(120% 60% at 50% -10%, rgba(255,255,255,0.25), transparent 60%),
-    linear-gradient(180deg, #2a1e0a 0%, #6e4a13 35%, #b88a2a 70%, #2a1e0a 100%);
+    radial-gradient(120% 60% at 50% -10%, rgba(255,255,255,0.18), transparent 60%),
+    url('assets/pack-art.png') center / cover no-repeat,
+    #2a1e0a;
 }
 .pack-preview--purple {
   background:
-    radial-gradient(120% 60% at 50% -10%, rgba(255,255,255,0.22), transparent 60%),
-    linear-gradient(180deg, #150a25 0%, #3f1c6e 40%, #7a35d9 70%, #170b2a 100%);
+    linear-gradient(180deg, rgba(63,28,110,0.55), rgba(122,53,217,0.4) 50%, rgba(23,11,42,0.65)),
+    url('assets/pack-art.png') center / cover no-repeat,
+    #170b2a;
 }
 .pack-preview--black {
   background:
-    radial-gradient(120% 60% at 50% -10%, rgba(255,255,255,0.2), transparent 60%),
-    linear-gradient(180deg, #0a0a0e 0%, #1a1a22 50%, #3a3a48 70%, #0a0a0e 100%);
+    linear-gradient(180deg, rgba(10,10,14,0.55), rgba(26,26,34,0.45) 50%, rgba(10,10,14,0.7)),
+    url('assets/pack-art.png') center / cover no-repeat,
+    #0a0a0e;
 }
 
 .pack-foil {
