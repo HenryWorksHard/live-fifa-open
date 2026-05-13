@@ -113,7 +113,9 @@
         "DRI": 84,
         "DEF": 88,
         "PHY": 86
-      }
+      },
+      "faceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/RODRI_-_SWE_vs_ESP_-_UEFA_EURO_2020_QUALIFIERS_-_2019.10.15_%28cropped%29.jpg/500px-RODRI_-_SWE_vs_ESP_-_UEFA_EURO_2020_QUALIFIERS_-_2019.10.15_%28cropped%29.jpg",
+      "faceLicense": "CC BY-SA 4.0"
     },
     {
       "id": "lfo-007",
@@ -301,7 +303,9 @@
         "DRI": 85,
         "DEF": 35,
         "PHY": 65
-      }
+      },
+      "faceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Antony_2022.jpg/500px-Antony_2022.jpg",
+      "faceLicense": "CC BY-SA 4.0"
     },
     {
       "id": "lfo-017",
@@ -470,7 +474,9 @@
         "DRI": 82,
         "DEF": 40,
         "PHY": 65
-      }
+      },
+      "faceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Hirving_Lozano.png/500px-Hirving_Lozano.png",
+      "faceLicense": "CC BY 3.0"
     },
     {
       "id": "lfo-026",
@@ -829,7 +835,9 @@
         "DRI": 88,
         "DEF": 38,
         "PHY": 72
-      }
+      },
+      "faceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/FC_RB_Salzburg_gegen_FC_Bayern_M%C3%BCnchen_%282026-01-06_Testspiel%29_40_%28Luiz_D%C3%ADaz%29.jpg/500px-FC_RB_Salzburg_gegen_FC_Bayern_M%C3%BCnchen_%282026-01-06_Testspiel%29_40_%28Luiz_D%C3%ADaz%29.jpg",
+      "faceLicense": "CC BY-SA 4.0"
     },
     {
       "id": "lfo-045",
@@ -922,7 +930,9 @@
         "DRI": 80,
         "DEF": 39,
         "PHY": 78
-      }
+      },
+      "faceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Ryan_rcl_asse_2425.png/500px-Ryan_rcl_asse_2425.png",
+      "faceLicense": "CC0"
     },
     {
       "id": "lfo-050",
@@ -939,7 +949,9 @@
         "DRI": 65,
         "DEF": 80,
         "PHY": 86
-      }
+      },
+      "faceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/4822293_AE7I6590_%28cropped%29.jpg",
+      "faceLicense": "CC BY 4.0"
     },
     {
       "id": "lfo-051",
@@ -975,7 +987,9 @@
         "DRI": 78,
         "DEF": 35,
         "PHY": 78
-      }
+      },
+      "faceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Sardar_Azmoun_-_IRN_vs_USA_-_FIFA_WC_2022.jpg",
+      "faceLicense": "CC BY 4.0"
     },
     {
       "id": "lfo-053",
@@ -1068,7 +1082,9 @@
         "DRI": 75,
         "DEF": 84,
         "PHY": 84
-      }
+      },
+      "faceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Wilfred_Ndidi-Nigeria.jpg",
+      "faceLicense": "CC BY-SA 3.0"
     },
     {
       "id": "lfo-058",
@@ -1104,7 +1120,9 @@
         "DRI": 76,
         "DEF": 38,
         "PHY": 84
-      }
+      },
+      "faceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/S%C3%A9bastien_Haller_2.jpg/500px-S%C3%A9bastien_Haller_2.jpg",
+      "faceLicense": "CC BY 4.0"
     },
     {
       "id": "lfo-060",
@@ -1121,7 +1139,9 @@
         "DRI": 78,
         "DEF": 80,
         "PHY": 84
-      }
+      },
+      "faceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Franck_Yannick_Kessi%C3%A9.jpg/500px-Franck_Yannick_Kessi%C3%A9.jpg",
+      "faceLicense": "CC0"
     },
     {
       "id": "lfo-061",
@@ -1233,7 +1253,9 @@
         "DRI": 80,
         "DEF": 35,
         "PHY": 84
-      }
+      },
+      "faceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Incontro_con_le_squadre_finaliste_della_Coppa_Italia_di_calcio_Frecciarossa_Atalanta_-_Juventus_05_%28Du%C5%A1an_Vlahovi%C4%87%29.jpg",
+      "faceLicense": "Attribution"
     },
     {
       "id": "lfo-067",
@@ -1364,7 +1386,9 @@
         "DRI": 84,
         "DEF": 39,
         "PHY": 80
-      }
+      },
+      "faceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Kasper_Schmeichel_Celtic-20240722_%28cropped%29.jpg/500px-Kasper_Schmeichel_Celtic-20240722_%28cropped%29.jpg",
+      "faceLicense": "CC BY-SA 4.0"
     },
     {
       "id": "lfo-074",
@@ -1387,20 +1411,22 @@
     },
     {
       "id": "lfo-075",
-      "name": "M. Antuna",
+      "name": "E. Álvarez",
       "nation": "Mexico",
       "nationCode": "MEX",
-      "position": "LW",
-      "rating": 77,
+      "position": "CDM",
+      "rating": 81,
       "rarity": "gold",
       "stats": {
-        "PAC": 86,
-        "SHO": 72,
-        "PAS": 70,
-        "DRI": 80,
-        "DEF": 38,
-        "PHY": 60
-      }
+        "PAC": 72,
+        "SHO": 65,
+        "PAS": 74,
+        "DRI": 74,
+        "DEF": 84,
+        "PHY": 84
+      },
+      "faceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Edson_%C3%81lvarez.png/500px-Edson_%C3%81lvarez.png",
+      "faceLicense": "CC BY 3.0"
     },
     {
       "id": "lfo-076",
@@ -1417,7 +1443,9 @@
         "DRI": 75,
         "DEF": 38,
         "PHY": 80
-      }
+      },
+      "faceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Ra%C3%BAl_Jim%C3%A9nez_04032026_%281%29.jpg/500px-Ra%C3%BAl_Jim%C3%A9nez_04032026_%281%29.jpg",
+      "faceLicense": "CC0"
     },
     {
       "id": "lfo-077",
