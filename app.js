@@ -380,12 +380,14 @@ function attachHoloTilt(el) {
     if (raf) cancelAnimationFrame(raf);
     raf = requestAnimationFrame(() => {
       face.style.setProperty('--holo-angle', `${px * 360}deg`);
-      // subtle tilt on the face element only, so the card flip transform stays intact
-      face.style.setProperty('transform', `rotateY(180deg) rotateX(${(0.5 - py) * 10}deg) rotateZ(${(px - 0.5) * 4}deg)`);
+      // Subtle tilt only — no rotateY (used to flip the card under the old
+      // 3D-flip structure; with the opacity-crossfade pattern the face is
+      // already at local identity and any rotateY here would flip it on hover).
+      face.style.setProperty('transform', `rotateX(${(0.5 - py) * 6}deg) rotateY(${(px - 0.5) * 6}deg)`);
     });
   });
   el.addEventListener('pointerleave', () => {
-    face.style.transform = 'rotateY(180deg)';
+    face.style.transform = '';
   });
 }
 
